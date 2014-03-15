@@ -1,0 +1,6 @@
+double_julius.default.index:
+    pattern:  /julius/{id}
+    defaults: { _controller: DoubleJuliusBundle:Default:index }
+    methods: [GET]
+    requirements: 
+      id: \d+
