@@ -17,6 +17,7 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new Double\Bundle\BlogBundle\DoubleBlogBundle(),
+            new Double\Bundle\JuliusBundle\DoubleJuliusBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
