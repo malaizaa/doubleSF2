@@ -10,4 +10,9 @@ class BlogController extends Controller
     {
         return $this->render('DoubleBlogBundle:Blog:index.html.twig', array('name' => $name));
     }
+	
+	public function addAction()
+	{
+		
+	}
 }
