@@ -4,6 +4,10 @@ double_mantas:
 double_vytautas:
     resource: "@DoubleVytautasBundle/Resources/config/routing.yml"
     prefix:   /
+    
+double_julius:
+    resource: "@DoubleJuliusBundle/Resources/config/routing.yml"
+    prefix:   /
 
 double_blog:
     resource: "@DoubleBlogBundle/Resources/config/routing.yml"

@@ -17,6 +17,10 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new Double\Bundle\BlogBundle\DoubleBlogBundle(),
+<<<<<<< HEAD
+=======
+            new Double\Bundle\JuliusBundle\DoubleJuliusBundle(),
+>>>>>>> 2c5893770a6a4e365459e34aa3b70eae709a3e32
             new Double\Bundle\MantasBundle\DoubleMantasBundle(),
             new Double\Bundle\VytautasBundle\DoubleVytautasBundle(),
         );
