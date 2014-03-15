@@ -1,0 +1,6 @@
+double_mantas.default.index:
+    pattern:  /mantas/{id}
+    defaults: { _controller: DoubleMantasBundle:Default:index }
+    methods: [GET]
+    requirements: 
+       id: \d+

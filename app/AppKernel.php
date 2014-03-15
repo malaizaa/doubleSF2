@@ -18,6 +18,7 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new Double\Bundle\BlogBundle\DoubleBlogBundle(),
             new Double\Bundle\JuliusBundle\DoubleJuliusBundle(),
+            new Double\Bundle\MantasBundle\DoubleMantasBundle(),
             new Double\Bundle\VytautasBundle\DoubleVytautasBundle(),
         );
 
