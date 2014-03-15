@@ -1,10 +1,8 @@
-<<<<<<< HEAD
 double_mantas:
     resource: "@DoubleMantasBundle/Resources/config/routing.yml"
-=======
+
 double_vytautas:
     resource: "@DoubleVytautasBundle/Resources/config/routing.yml"
->>>>>>> bde9b01b803489a2517a64a0979f2fe236efdd15
     prefix:   /
 
 double_blog:
