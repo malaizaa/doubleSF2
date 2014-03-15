@@ -1,3 +1,7 @@
+double_vytautas:
+    resource: "@DoubleVytautasBundle/Resources/config/routing.yml"
+    prefix:   /
+    
 double_julius:
     resource: "@DoubleJuliusBundle/Resources/config/routing.yml"
     prefix:   /
