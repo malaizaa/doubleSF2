@@ -1,0 +1,4 @@
+double_blog:
+    resource: "@DoubleBlogBundle/Resources/config/routing.yml"
+    prefix:   /
+
