@@ -1,0 +1,6 @@
+double_vytautas.vytautas.index:
+    pattern:  /vytautas/{id}
+    defaults: { _controller: DoubleVytautasBundle:Default:index }
+    methods: [GET]
+    requirements:
+        id:  \d+
