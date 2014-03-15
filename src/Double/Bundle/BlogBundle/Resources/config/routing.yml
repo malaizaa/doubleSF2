@@ -1,3 +1,3 @@
-double_blog.default.index:
+double_blog.blog.index:
     pattern:  /blog/{name}
     defaults: { _controller: DoubleBlogBundle:Blog:index }
